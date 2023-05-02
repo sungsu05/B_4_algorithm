@@ -31,7 +31,7 @@ def solution(price):
 
 def solution(price):
     return int(price * (0.8 if price >= 500000 else 0.9 if price >= 300000 else 0.95 if price >= 100000 else 1))
-# 중첩된 삼항연산자 사용해서 팍 줄여버리기~
+# 중첩된 삼항연산자 사용해서 팍 줄여버리기
 # 했더니 테스트 13, 14 실패 
 # 제한사항 "소수점 이하를 버린 정수를 return" 
 # int()로 정수변환해주고 통과!
