@@ -17,7 +17,7 @@ def fibo(n,dp):
     return dp[n]
 
 def solution_2(n):
-    dp = [-1] * 100001
+    dp = [-1] * n + 1
     dp[0] = 0
     dp[1] = 1
     return fibo(n,dp)
