@@ -3,13 +3,13 @@
 
 def solution(price):
     if price >= 500000:
-        return(price*0.8) # 0.2를 하면 얼마나 할인을 하는지 나온다.   
+        return int(price*0.8) # 0.2를 하면 얼마나 할인을 하는지 나온다.   
     elif price >= 300000:
-        return(price*0.9)# 10% 할인 0.1
+        return int(price*0.9)# 10% 할인 0.1
     elif price >= 100000:
-        return(price*0.95)# 5% 할인 0.5
+        return int(price*0.95)# 5% 할인 0.5
     else:
-        return(price)
+        return int(price)
 
 
 solution(580000)    
