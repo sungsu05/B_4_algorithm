@@ -1,4 +1,4 @@
-# ㅡㅡㅡㅡㅡ 1. https://school.programmers.co.kr/learn/courses/30/lessons/120818 ㅡㅡㅡㅡㅡ
+# ㅡㅡㅡㅡㅡ 2. https://school.programmers.co.kr/learn/courses/30/lessons/120813 ㅡㅡㅡㅡㅡ
 # 예전에 풀었던 문제
 
 def solution(n):
@@ -11,6 +11,7 @@ def solution(n):
             answer.append(num) 
             # 홀수면 answer에 넣고
         else:
-            pass
+            pass # 건너뛸 때는 continue
             # 아니면 지나가라.
+            # else문 자체가 없어도 ok! 
     return answer

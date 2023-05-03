@@ -26,7 +26,7 @@ def solution(price):
     else:
         answer = price
 
-    return answer
+    return int(answer)
 # 1차 수정 
 
 def solution(price):
