@@ -35,7 +35,6 @@ def solution(ingredient):
             a += 1
         else:
             stack.append(i)
-    
     return a
 
 
