@@ -8,3 +8,5 @@ def solution(n):
 print(solution(6))
 print(solution(10))
 print(solution(4))
+
+

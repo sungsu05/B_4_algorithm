@@ -38,8 +38,9 @@ def solution_2(ingredient):
             # print(s,s.find('1231'))
         s = s.replace(buger,'',1)
         result += 1
+
     return result
-# 132121312222222222122221231231 , 22 -4
+# 1321213122222222221222212312311 , 22 -4
 # 22221231 , 4
 
 # -4를 하는 이유
@@ -55,7 +56,7 @@ def solution_2(ingredient):
 
 x = [1, 3, 2, 1, 2, 1, 3, 1, 2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,1,1,2,3,1,2,3,1]
 # print(solution(x))
-print(solution_2(x))
+# print(solution_2(x))
 
 x =[1,1,2,3,1,2,3,1,2,3,1,2,3,1]
 # print(solution_2(x))
@@ -63,15 +64,15 @@ x =[1,1,2,3,1,2,3,1,2,3,1,2,3,1]
 
 
 
-# x = "012345123"
+# x = "045123123"
 # print(x.find('1'))
 # print(x.index('1'))
 # x = x.replace('123','',1)
 # print(x)
 
-# string = '712317771231888'
-# result = string.find('1231')
-# print(result)
+string = '777712318881231'
+result = string.find('1231')
+print(result)
 # s = string[string.find('1231')-4:] # 3-4 = -1
-#
+# #
 # print(s)
