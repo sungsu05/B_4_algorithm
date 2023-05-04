@@ -9,6 +9,8 @@ def solution_2(n):
 x = 10
 print(solution(x))
 print(solution_2(x))
+
 x = 15
 print(solution(x))
 print(solution_2(x))
+
