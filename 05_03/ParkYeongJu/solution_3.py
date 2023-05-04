@@ -19,7 +19,7 @@
 ingredient = [2, 1, 1, 2, 3, 1, 2, 3, 1]
 
 # while hamburger in ingredient: -> 안됨 
-# set에서 <=를 쓰면 부분집합인지 True, False로 반환할 수 있다.
+# set에서 <=를 쓰면 부분집합 여부를 True, False로 반환할 수 있다.
 # but 부분집합은 순서가 없다.......
 # hamburger리스트의 순서까지! 일치하는 부분집합이 있을 때만 삭제하도록 해보자
 # del 을 쓰면 특정 인덱스의 요소를 삭제할 수 있다. (복구X)
