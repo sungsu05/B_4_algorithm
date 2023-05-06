@@ -10,6 +10,7 @@ print("Yes" if sum([(lambda a,b:a*b)(*list(map(int,input().split(' ')))) for i i
 # 기존 코드
 # 영수증에 적힌 금액
 x = int(input())
+
 # 구매한 물건 종류의 수
 n = int(input())
 
@@ -23,7 +24,7 @@ print("Yes"if sum == x else "No")
 
 """ 
 입력 예시
-250000
+260000
 4
 20000 5
 30000 2
